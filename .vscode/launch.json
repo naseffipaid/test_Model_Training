@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Flask (app.py)",
+      "type": "python",                       // keep "python" for now, still works
+      "request": "launch",
+      "program": "${workspaceFolder}/app.py", // entry point
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "FLASK_ENV": "development",
+        "FLASK_APP": "app.py"                 // explicitly set Flask app
+      },
+      "args": [
+        "run",
+        "--no-debugger",
+        "--no-reload"
+      ]
+    }
+  ]
+}

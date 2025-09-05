@@ -1,0 +1,5 @@
+python-dotenv
+Flask
+pandas
+numpy
+scikit-learn
